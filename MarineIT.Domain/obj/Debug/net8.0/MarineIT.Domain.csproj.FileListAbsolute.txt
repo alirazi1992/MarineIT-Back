@@ -1,0 +1,11 @@
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\bin\Debug\net8.0\MarineIT.Domain.deps.json
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\bin\Debug\net8.0\MarineIT.Domain.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\bin\Debug\net8.0\MarineIT.Domain.pdb
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.AssemblyInfoInputs.cache
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.AssemblyInfo.cs
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.csproj.CoreCompileInputs.cache
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\refint\MarineIT.Domain.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\MarineIT.Domain.pdb
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Domain\obj\Debug\net8.0\ref\MarineIT.Domain.dll
