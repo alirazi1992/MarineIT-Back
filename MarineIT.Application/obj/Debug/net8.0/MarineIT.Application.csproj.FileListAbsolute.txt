@@ -1,0 +1,15 @@
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\bin\Debug\net8.0\MarineIT.Application.deps.json
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\bin\Debug\net8.0\MarineIT.Application.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\bin\Debug\net8.0\MarineIT.Application.pdb
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\bin\Debug\net8.0\MarineIT.Domain.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\bin\Debug\net8.0\MarineIT.Domain.pdb
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.csproj.AssemblyReference.cache
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.AssemblyInfoInputs.cache
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.AssemblyInfo.cs
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.csproj.CoreCompileInputs.cache
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.C1F78B21.Up2Date
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\refint\MarineIT.Application.dll
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\MarineIT.Application.pdb
+C:\Users\a.razi\source\repos\MarineIT\MarineIT.Application\obj\Debug\net8.0\ref\MarineIT.Application.dll
