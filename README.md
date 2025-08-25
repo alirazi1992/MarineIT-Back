@@ -54,7 +54,7 @@ dotnet restore
 dotnet ef database update
 ```
 4. Run the backend:
-   ```bash
+```bash
    dotnet run
 ```
 5. API will be available at:
