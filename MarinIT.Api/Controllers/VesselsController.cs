@@ -1,27 +1,26 @@
-﻿using MarineIT.Domain.Entities;
-using MarineIT.Infrastructure.Data;
+﻿using MarineIT.Application.Vessels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
-namespace MarinIT.Api.Controllers
+namespace MarineIT.Api.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class VesselsController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class VesselsController : ControllerBase
+    private readonly IVesselService _vessels;
+    public VesselsController(IVesselService vessels) => _vessels = vessels;
+
+    [HttpGet]
+    public async Task<ActionResult<IReadOnlyList<object>>> List()
+        => Ok(await _vessels.ListAsync()); // ListAsync exists. :contentReference[oaicite:7]{index=7}
+
+    public record CreateVesselRequest(string Name, string? Imo);
+
+    [HttpPost]
+    public async Task<ActionResult<object>> Create([FromBody] CreateVesselRequest body)
     {
-        private readonly AppDbContext _db;
-        public VesselsController(AppDbContext db) => _db = db;
-
-        [HttpGet]
-        public async Task<IActionResult> List()
-            => Ok(await _db.Vessels.AsNoTracking().OrderBy(v => v.Name).ToListAsync());
-
-        [HttpPost]
-        public async Task<IActionResult> Create([FromBody] Vessel v)
-        {
-            _db.Vessels.Add(v);
-            await _db.SaveChangesAsync();
-            return CreatedAtAction(nameof(List), new { id = v.Id }, v);
-        }
+        var created = await _vessels.CreateAsync(body.Name, body.Imo); // CreateAsync exists. :contentReference[oaicite:8]{index=8}
+        var id = created.GetType().GetProperty("Id")?.GetValue(created);
+        return Created($"/api/vessels/{id}", created);
     }
 }
